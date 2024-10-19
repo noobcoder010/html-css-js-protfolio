@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my protfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquery.css">
+</head>
+
+<body>
+    <nav id="desktop-nav">
+        <div class="logo"> Soumitra pal</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#About">About</a></li>
+                <li><a href="#Exprience">Exprience</a></li>
+                <li><a href="#Project">Project</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </div>
+
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo"> Soumitra pal</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </div>
+            <div class="menu-link">
+                <li><a href="#About" onclick="toggleMenu()" >About</a></li>
+                <li><a href="#Exprience" onclick="toggleMenu()">Exprience</a></li>
+                <li><a href="#Project" onclick="toggleMenu()">Project</a></li>
+                <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li>
+                
+            </div>
+        </div>
+
+    </nav>
+    <script src="script.js"></script>
+</body>
+
+</html>
